@@ -1,0 +1,434 @@
+{
+  "colleges": [
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "location": "Stanford, CA",
+      "state": "CA",
+      "region": "West",
+      "description": "Private research university in Silicon Valley, known for innovation, entrepreneurship, and strong engineering/CS programs. One of the most selective schools in the US.",
+      
+      "acceptance_rate": 0.03,
+      "acceptance_rate_note": "2024 admission cycle - 3% acceptance rate",
+      
+      "gpa": {
+        "average": 3.95,
+        "25th_percentile": 3.93,
+        "50th_percentile": 3.95,
+        "75th_percentile": 4.00
+      },
+      
+      "sat_scores": {
+        "average": 1530,
+        "25th_percentile": 1470,
+        "50th_percentile": 1530,
+        "75th_percentile": 1560,
+        "percent_submitting": 100,
+        "optional": false
+      },
+      
+      "act_scores": {
+        "average": 35,
+        "25th_percentile": 33,
+        "50th_percentile": 35,
+        "75th_percentile": 36,
+        "percent_submitting": 85,
+        "optional": false
+      },
+      
+      "cost": {
+        "tuition": 60000,
+        "room_board": 19500,
+        "total_cost_of_attendance": 81000,
+        "meets_full_need": true,
+        "percent_receiving_aid": 95,
+        "avg_aid_package": 60000
+      },
+      
+      "academics": {
+        "majors": ["Computer Science", "Engineering", "Physics", "Business"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 6500,
+        "first_gen_percent": 0.12,
+        "pell_grant_percent": 0.16,
+        "graduation_rate": 0.98
+      },
+      
+      "admissions": {
+        "essays_required": 2,
+        "recommendation_letters": 3,
+        "interview": "recommended",
+        "application_deadline": "2025-01-15",
+        "financial_aid_deadline": "2025-03-15",
+        "test_optional": false
+      },
+      
+      "first_gen_support": true,
+      "size": "small",
+      "setting": "suburban"
+    },
+    
+    {
+      "id": "berkeley",
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "state": "CA",
+      "region": "West",
+      "description": "Top public research university known for rigorous academics, strong engineering/CS programs, and affordable price for in-state students. Very selective but more accessible than Stanford/MIT.",
+      
+      "acceptance_rate": 0.08,
+      
+      "gpa": {
+        "average": 3.88,
+        "25th_percentile": 3.75,
+        "50th_percentile": 3.88,
+        "75th_percentile": 3.98
+      },
+      
+      "sat_scores": {
+        "average": 1510,
+        "25th_percentile": 1430,
+        "50th_percentile": 1510,
+        "75th_percentile": 1570,
+        "percent_submitting": 100,
+        "optional": false
+      },
+      
+      "act_scores": {
+        "average": 34,
+        "25th_percentile": 32,
+        "50th_percentile": 34,
+        "75th_percentile": 35,
+        "percent_submitting": 65,
+        "optional": false
+      },
+      
+      "cost": {
+        "tuition_instate": 18500,
+        "tuition_outofstate": 48000,
+        "room_board": 17000,
+        "total_cost_of_attendance": 42000,
+        "meets_full_need": true,
+        "percent_receiving_aid": 92,
+        "avg_aid_package": 32000
+      },
+      
+      "academics": {
+        "majors": ["Computer Science", "Engineering", "Business", "Physics", "Chemistry"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 31000,
+        "first_gen_percent": 0.18,
+        "pell_grant_percent": 0.25,
+        "graduation_rate": 0.95
+      },
+      
+      "admissions": {
+        "essays_required": 1,
+        "recommendation_letters": 0,
+        "interview": "not offered",
+        "application_deadline": "2024-11-30",
+        "financial_aid_deadline": "2025-03-02",
+        "test_optional": false
+      },
+      
+      "first_gen_support": true,
+      "size": "large",
+      "setting": "urban"
+    },
+    
+    {
+      "id": "caltech",
+      "name": "California Institute of Technology",
+      "location": "Pasadena, CA",
+      "state": "CA",
+      "region": "West",
+      "description": "Elite STEM-focused institution with rigorous coursework, strong emphasis on physics/engineering/math. Smallest elite university. Most selective for math/science students.",
+      
+      "acceptance_rate": 0.03,
+      
+      "gpa": {
+        "average": 3.96,
+        "25th_percentile": 3.94,
+        "50th_percentile": 3.96,
+        "75th_percentile": 4.00
+      },
+      
+      "sat_scores": {
+        "average": 1550,
+        "25th_percentile": 1520,
+        "50th_percentile": 1550,
+        "75th_percentile": 1570,
+        "percent_submitting": 100,
+        "optional": false
+      },
+      
+      "act_scores": {
+        "average": 36,
+        "25th_percentile": 35,
+        "50th_percentile": 36,
+        "75th_percentile": 36,
+        "percent_submitting": 80,
+        "optional": false
+      },
+      
+      "cost": {
+        "tuition": 63000,
+        "room_board": 18000,
+        "total_cost_of_attendance": 81000,
+        "meets_full_need": true,
+        "percent_receiving_aid": 88,
+        "avg_aid_package": 62000
+      },
+      
+      "academics": {
+        "majors": ["Engineering", "Physics", "Computer Science", "Mathematics"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 950,
+        "first_gen_percent": 0.10,
+        "pell_grant_percent": 0.12,
+        "graduation_rate": 0.97
+      },
+      
+      "admissions": {
+        "essays_required": 2,
+        "recommendation_letters": 3,
+        "interview": "recommended",
+        "application_deadline": "2025-01-09",
+        "financial_aid_deadline": "2025-03-15",
+        "test_optional": false
+      },
+      
+      "first_gen_support": true,
+      "size": "small",
+      "setting": "suburban"
+    },
+    
+    {
+      "id": "uw",
+      "name": "University of Washington",
+      "location": "Seattle, WA",
+      "state": "WA",
+      "region": "West",
+      "description": "Top public research university with strong engineering and CS programs. Very selective but more accessible than Stanford/Caltech. Excellent for first-gen and international students.",
+      
+      "acceptance_rate": 0.40,
+      
+      "gpa": {
+        "average": 3.75,
+        "25th_percentile": 3.55,
+        "50th_percentile": 3.75,
+        "75th_percentile": 3.92
+      },
+      
+      "sat_scores": {
+        "average": 1340,
+        "25th_percentile": 1200,
+        "50th_percentile": 1340,
+        "75th_percentile": 1460,
+        "percent_submitting": 90,
+        "optional": true
+      },
+      
+      "act_scores": {
+        "average": 29,
+        "25th_percentile": 26,
+        "50th_percentile": 29,
+        "75th_percentile": 32,
+        "percent_submitting": 70,
+        "optional": true
+      },
+      
+      "cost": {
+        "tuition_instate": 11000,
+        "tuition_outofstate": 36000,
+        "room_board": 14000,
+        "total_cost_of_attendance": 33000,
+        "meets_full_need": true,
+        "percent_receiving_aid": 85,
+        "avg_aid_package": 18000
+      },
+      
+      "academics": {
+        "majors": ["Computer Science", "Engineering", "Business", "Medicine"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 31000,
+        "first_gen_percent": 0.22,
+        "pell_grant_percent": 0.28,
+        "graduation_rate": 0.93
+      },
+      
+      "admissions": {
+        "essays_required": 0,
+        "recommendation_letters": 0,
+        "interview": "not offered",
+        "application_deadline": "2025-01-15",
+        "financial_aid_deadline": "2025-03-01",
+        "test_optional": true
+      },
+      
+      "first_gen_support": true,
+      "size": "large",
+      "setting": "urban"
+    },
+    
+    {
+      "id": "ut-austin",
+      "name": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "state": "TX",
+      "region": "South",
+      "description": "Top public research university with strong engineering and business programs. Less selective than UC schools due to Texas automatic admission policy. Excellent value for out-of-state students.",
+      
+      "acceptance_rate": 0.27,
+      
+      "gpa": {
+        "average": 3.82,
+        "25th_percentile": 3.65,
+        "50th_percentile": 3.82,
+        "75th_percentile": 3.95
+      },
+      
+      "sat_scores": {
+        "average": 1460,
+        "25th_percentile": 1340,
+        "50th_percentile": 1460,
+        "75th_percentile": 1560,
+        "percent_submitting": 95,
+        "optional": false
+      },
+      
+      "act_scores": {
+        "average": 33,
+        "25th_percentile": 30,
+        "50th_percentile": 33,
+        "75th_percentile": 34,
+        "percent_submitting": 80,
+        "optional": false
+      },
+      
+      "cost": {
+        "tuition_instate": 11000,
+        "tuition_outofstate": 40000,
+        "room_board": 12000,
+        "total_cost_of_attendance": 32000,
+        "meets_full_need": false,
+        "percent_receiving_aid": 88,
+        "avg_aid_package": 12000
+      },
+      
+      "academics": {
+        "majors": ["Computer Science", "Engineering", "Business", "Liberal Arts"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 40000,
+        "first_gen_percent": 0.25,
+        "pell_grant_percent": 0.32,
+        "graduation_rate": 0.92
+      },
+      
+      "admissions": {
+        "essays_required": 1,
+        "recommendation_letters": 0,
+        "interview": "not offered",
+        "application_deadline": "2024-12-01",
+        "financial_aid_deadline": "2025-03-15",
+        "test_optional": false
+      },
+      
+      "first_gen_support": true,
+      "size": "large",
+      "setting": "urban"
+    },
+    
+    {
+      "id": "uiuc",
+      "name": "University of Illinois Urbana-Champaign",
+      "location": "Champaign, IL",
+      "state": "IL",
+      "region": "Midwest",
+      "description": "Excellent public research university with strong engineering program. Moderately selective. Good value and less intense culture than top elites.",
+      
+      "acceptance_rate": 0.51,
+      
+      "gpa": {
+        "average": 3.73,
+        "25th_percentile": 3.45,
+        "50th_percentile": 3.73,
+        "75th_percentile": 3.92
+      },
+      
+      "sat_scores": {
+        "average": 1390,
+        "25th_percentile": 1250,
+        "50th_percentile": 1390,
+        "75th_percentile": 1510,
+        "percent_submitting": 85,
+        "optional": true
+      },
+      
+      "act_scores": {
+        "average": 31,
+        "25th_percentile": 27,
+        "50th_percentile": 31,
+        "75th_percentile": 33,
+        "percent_submitting": 75,
+        "optional": true
+      },
+      
+      "cost": {
+        "tuition_instate": 15000,
+        "tuition_outofstate": 35000,
+        "room_board": 12000,
+        "total_cost_of_attendance": 32000,
+        "meets_full_need": true,
+        "percent_receiving_aid": 87,
+        "avg_aid_package": 15000
+      },
+      
+      "academics": {
+        "majors": ["Computer Science", "Engineering", "Business", "Liberal Arts"],
+        "stem_strength": true,
+        "research_focus": true
+      },
+      
+      "student_profile": {
+        "undergraduate_population": 32000,
+        "first_gen_percent": 0.20,
+        "pell_grant_percent": 0.24,
+        "graduation_rate": 0.89
+      },
+      
+      "admissions": {
+        "essays_required": 0,
+        "recommendation_letters": 0,
+        "interview": "not offered",
+        "application_deadline": "2025-01-15",
+        "financial_aid_deadline": "2025-03-15",
+        "test_optional": true
+      },
+      
+      "first_gen_support": true,
+      "size": "large",
+      "setting": "suburban"
+    }
+  ]
+}

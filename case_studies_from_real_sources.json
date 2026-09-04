@@ -1,0 +1,557 @@
+{
+  "case_studies": [
+    {
+      "id": "riya_cs_seattle",
+      "name": "Riya",
+      "major": "Computer Science",
+      "location": "Seattle, WA",
+      "profile_summary": "High-achieving CS student worried about standing out in competitive tech region",
+      
+      "academic_profile": {
+        "strengths": ["Strong academics", "CS focus"],
+        "challenges": ["Competition from local tech talent (Microsoft/Amazon employees' kids)"],
+        "concern": "Would get overlooked among peers aiming at local tech giants"
+      },
+      
+      "strategy_applied": [
+        "Personalized college guidance from PathIvy",
+        "Identified unique angles to stand out",
+        "Strategic college selection"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Multiple top CS programs"],
+        "lesson": "Even strong students need strategic positioning in competitive regions"
+      },
+      
+      "insights_for_agent": [
+        "Geographic competition matters - students in tech hubs face stiffer competition",
+        "Strong academics alone aren't enough at top schools",
+        "Need to differentiate CS students in highly competitive markets",
+        "First-generation or unique background can be a differentiator",
+        "Regional counseling helps identify blind spots"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Ultra-selective CS programs (MIT, Stanford, Caltech)",
+        "target_schools": "Top public CS programs (Berkeley, CMU, UIUC)",
+        "safety_schools": "Strong state schools with CS (UW, Georgia Tech)"
+      }
+    },
+    
+    {
+      "id": "maya_overcoming_blemishes",
+      "name": "Maya",
+      "major": "Liberal Arts/Undecided",
+      "location": "Unknown",
+      "profile_summary": "Brilliant student with transcript blemishes and scattered extracurriculars",
+      
+      "academic_profile": {
+        "strengths": ["Brilliant mind", "Fierce debater", "Conscientious inquirer", "Generous collaborator"],
+        "challenges": [
+          "Blemishes on transcript (poor grades in some classes)",
+          "Lack of focus in extracurricular activities list",
+          "Unfocused profile"
+        ],
+        "parent_concern": "Admissions officers might miss her potential"
+      },
+      
+      "strategy_applied": [
+        "Help craft narrative around her strengths",
+        "Highlight debate achievements",
+        "Focus on collaboration/teamwork",
+        "Explain transcript issues contextually"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Competitive schools"],
+        "lesson": "Holistic review means blemishes can be overcome with strong narrative"
+      },
+      
+      "insights_for_agent": [
+        "Transcript imperfections don't disqualify strong students",
+        "Soft skills (debate, collaboration) matter at holistic schools",
+        "Narrative/essays can compensate for academic weaknesses",
+        "Schools doing holistic review value debate and intellectual engagement",
+        "Focus and consistency in extracurriculars matters, but depth > breadth"
+      ],
+      
+      "college_fit_indicators": {
+        "key_factor": "Holistic review schools > test-score focused schools",
+        "reach_schools": "Liberal arts colleges known for holistic review (Amherst, Williams)",
+        "target_schools": "Medium-selective schools with strong humanities",
+        "avoid": "Schools with strict grade requirements"
+      }
+    },
+    
+    {
+      "id": "ashley_doctor_internship",
+      "name": "Ashley",
+      "major": "Medicine/Pre-Med",
+      "location": "Unknown",
+      "profile_summary": "Aspiring doctor who used healthcare internship to build authentic college essay",
+      
+      "academic_profile": {
+        "strengths": ["Medical interest", "Initiative to intern"],
+        "activities": ["Healthcare internship"]
+      },
+      
+      "experience": {
+        "internship_type": "Healthcare/Medical research shadowing",
+        "internship_outcome": "Direct experience with medical professionals",
+        "impact": "Became cornerstone of successful college application"
+      },
+      
+      "strategy_applied": [
+        "Sought authentic internship in field of interest",
+        "Gained real-world impact experience",
+        "Used internship story in college essays"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Pre-med friendly schools"],
+        "essay_impact": "Internship story was cornerstone of application",
+        "lesson": "Authentic experiences > generic activities"
+      },
+      
+      "insights_for_agent": [
+        "Internships in major of interest strongly help applications",
+        "Real-world shadowing/research looks better than generic volunteering",
+        "Pre-med students need meaningful healthcare experience to stand out",
+        "Essay quality improves dramatically with authentic experiences",
+        "Medical research experience valuable for competitive pre-med admissions",
+        "Admissions officers want to see genuine passion through concrete action"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Pre-med programs at top schools (Johns Hopkins, Duke, Penn)",
+        "target_schools": "Strong pre-med programs at good universities",
+        "strength_factors": ["Medical research", "Healthcare shadowing", "Clinical volunteering"],
+        "key_schools_for_premd": "Consider schools strong in medical outcomes, not just prestige"
+      }
+    },
+    
+    {
+      "id": "arjun_cs_ml_intern",
+      "name": "Arjun",
+      "major": "Computer Science",
+      "location": "Unknown",
+      "profile_summary": "CS student who secured ML startup internship to differentiate profile",
+      
+      "academic_profile": {
+        "focus": "Computer Science, Machine Learning"
+      },
+      
+      "experience": {
+        "internship_type": "Machine learning startup",
+        "internship_outcome": "Real ML/AI project experience",
+        "impact": "Major differentiator in college applications"
+      },
+      
+      "strategy_applied": [
+        "PathIvy matched with targeted ML startup",
+        "Not a generic CS camp",
+        "Focused, relevant experience"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Top CS programs"],
+        "lesson": "Specialized internships in major of interest stand out"
+      },
+      
+      "insights_for_agent": [
+        "ML/AI experience increasingly important for CS admissions",
+        "Startup experience looks better than large tech company (shows real impact)",
+        "GitHub projects + internships = strong CS profile",
+        "CS students need 'proof of passion' through real projects",
+        "ML internships particularly valuable (competitive advantage)",
+        "Top CS programs expect technical depth, not just coursework"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "MIT, Stanford, CMU (CS focus)",
+        "target_schools": "Top public CS (Berkeley, UIUC, UW)",
+        "differentiators_needed": ["ML project experience", "GitHub portfolio", "Research or internship"],
+        "major_specific_strategy": "CS students must show passion through projects/research"
+      }
+    },
+    
+    {
+      "id": "brianna_entrepreneur_business",
+      "name": "Brianna",
+      "major": "Business/Entrepreneurship",
+      "location": "Unknown",
+      "profile_summary": "Budding entrepreneur who secured startup incubator internship",
+      
+      "academic_profile": {
+        "focus": "Business, Entrepreneurship"
+      },
+      
+      "experience": {
+        "internship_type": "Startup incubator",
+        "skills_learned": ["Business models", "Fundraising", "Leadership"],
+        "impact": "Helped secure admission to top business school"
+      },
+      
+      "strategy_applied": [
+        "PathIvy matched with startup incubator",
+        "Gained operational business experience",
+        "Leadership and strategy experience"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Top business school"],
+        "lesson": "Business schools value hands-on entrepreneurial experience"
+      },
+      
+      "insights_for_agent": [
+        "Business school admissions value entrepreneurial experience",
+        "Startup incubator experience > business camp",
+        "Fundraising/business model knowledge impressive for admissions",
+        "Leadership in business context highly valued",
+        "Real business problems > case study competitions",
+        "Demonstrating business acumen through action critical"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Wharton, Harvard Business School undergrad tracks, Stern",
+        "target_schools": "Top 20 business programs",
+        "differentiators_needed": ["Startup experience", "Business knowledge", "Leadership in business"],
+        "key_factor": "Business schools want entrepreneurs, not just good grades"
+      }
+    },
+    
+    {
+      "id": "david_political_science_focused",
+      "name": "David",
+      "major": "Political Science",
+      "location": "Unknown",
+      "profile_summary": "Politically inclined student with focus on congressional redistricting",
+      
+      "academic_profile": {
+        "focus": "Political Science",
+        "interests": ["Congressional redistricting", "Policy"]
+      },
+      
+      "differentiation": {
+        "strategy": "Deep focus on one policy area",
+        "ethos_statement": "Strong personal statement about political values",
+        "engagements": ["Relevant research", "Publications"],
+        "research": "Published work on redistricting"
+      },
+      
+      "outcomes": {
+        "colleges_admitted": ["Dartmouth", "Cornell", "Duke", "Brown"],
+        "lesson": "Deep subject focus + publications highly impressive"
+      },
+      
+      "insights_for_agent": [
+        "Deep focus in one area beats many shallow activities",
+        "Published research is major admission boost",
+        "Political engagement + research shows serious commitment",
+        "Ethos statement critical for students with strong political views",
+        "Ivy League values intellectual depth and scholarly contribution",
+        "Activism + research is powerful combination"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Ivy League (Dartmouth, Cornell, Duke, Princeton, Yale)",
+        "target_schools": "Top 20 liberal arts and universities",
+        "strength_factors": ["Research/publications", "Policy focus", "Intellectual depth"],
+        "key_insight": "Top schools want to see scholarly contribution, not just activities"
+      }
+    },
+    
+    {
+      "id": "sarah_humanities_tech",
+      "name": "Sarah",
+      "major": "Computer Science / Humanities",
+      "location": "Unknown",
+      "profile_summary": "Student interested in intersection of humanities and technology",
+      
+      "academic_profile": {
+        "focus": "Intersection of humanities and technology",
+        "initial_consideration": "Pure computer science major"
+      },
+      
+      "differentiation": {
+        "strategy": "Found unique angle at discipline intersection",
+        "approach": "Combined technical + humanistic interests"
+      },
+      
+      "outcomes": {
+        "colleges_admitted": ["Competitive universities"],
+        "lesson": "Interdisciplinary angle can differentiate"
+      },
+      
+      "insights_for_agent": [
+        "Interdisciplinary interests can be stronger differentiator than pure CS",
+        "Tech + humanities combo increasingly valued",
+        "Shows breadth and intellectual curiosity",
+        "Digital humanities, HCI, ethics in AI are growing fields",
+        "Students with dual interests may find unique niche"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Schools strong in both tech and humanities (MIT, Stanford, CMU, Yale)",
+        "target_schools": "Universities with strong liberal arts + CS",
+        "strength_factors": ["Interdisciplinary coursework", "Projects spanning both fields"],
+        "schools_to_consider": "Consider schools with strong CS + humanities programs"
+      }
+    },
+    
+    {
+      "id": "upenn_huntsman_dual_degree",
+      "name": "Vietnamese-American Student",
+      "major": "International Relations / Business (Huntsman Program)",
+      "location": "Private High School",
+      "profile_summary": "Strong academics but lacked standout extracurriculars; overcame through strategic positioning",
+      
+      "academic_profile": {
+        "gpa": "4.0 unweighted, 4.29 weighted",
+        "sat": 1530,
+        "coursework": "AP-heavy",
+        "challenge": "Strong grades but generic extracurriculars"
+      },
+      
+      "extracurriculars_before": [
+        "Scouts of America",
+        "Orchestra",
+        "Class VP (10th grade)",
+        "Sports and volunteering"
+      ],
+      
+      "challenge": "No major leadership positions, awards, or research experience despite strong academics",
+      
+      "strategy_applied": [
+        "Identified global perspective as unique angle",
+        "Crafted compelling personal story about overcoming adversity",
+        "Connected to international interests",
+        "Leadership growth narrative"
+      ],
+      
+      "outcomes": {
+        "target": "UPenn Huntsman Program (dual degree IR/Business, one of most competitive)",
+        "result": "Accepted early decision",
+        "timeline": "Transformation in just a few months",
+        "lesson": "Strategic narrative can overcome ordinary extracurriculars"
+      },
+      
+      "insights_for_agent": [
+        "Perfect grades/test scores aren't enough without differentiation",
+        "Personal narrative and adversity overcome is crucial",
+        "First-gen/immigrant perspective valuable for admissions",
+        "Dual-degree programs (Huntsman, etc.) prefer strategic applicants",
+        "Global perspective + international interests help at competitive schools",
+        "Leadership growth narrative more valuable than early leadership",
+        "Cultural background + global interests strong combination"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "UPenn Huntsman, Yale Jackson, Duke Sanford (dual degree IR programs)",
+        "target_schools": "Top schools with IR/Business crossover",
+        "strength_factors": ["International experience", "Immigrant/first-gen perspective", "Global leadership interests"],
+        "demographic_advantage": "Immigrant background valuable at competitive universities"
+      }
+    },
+    
+    {
+      "id": "carnegie_hall_cellist_coder",
+      "name": "East Asian Female Student",
+      "major": "STEM (Natural Sciences or Engineering)",
+      "location": "Competitive Public High School",
+      "profile_summary": "Strong academics with exceptional music achievement and tech innovation",
+      
+      "academic_profile": {
+        "gpa": "3.7 unweighted",
+        "sat": 1570,
+        "coursework": "Rigorous but not exceptional for her school"
+      },
+      
+      "extracurriculars": [
+        {
+          "activity": "Cello musician",
+          "achievement": "Regional accomplishment (close to national level)",
+          "recognition": "Performed at Carnegie Hall Winner's Recital",
+          "impact": "Significant distinction"
+        },
+        {
+          "activity": "Founded non-profit",
+          "focus": "Teaching girls how to code",
+          "impact": "Demonstrated tech + social impact"
+        },
+        {
+          "activity": "Summer research",
+          "location": "Regional research university",
+          "field": "Natural sciences"
+        },
+        {
+          "activity": "Volunteering",
+          "description": "Playing music at nursing homes"
+        }
+      ],
+      
+      "challenge": "Applied as senior (no time for profile changes before apps)",
+      
+      "outcomes": {
+        "colleges_admitted": ["Competitive universities"],
+        "lesson": "Diverse accomplishments (music + STEM + service) can overcome time constraints"
+      },
+      
+      "insights_for_agent": [
+        "Carnegie Hall level music achievement is major differentiator",
+        "Female STEM students should leverage music/arts if accomplished",
+        "Founding tech-for-good non-profit is powerful combination",
+        "Research experience in natural sciences valuable",
+        "Asian American students face higher bar - need true distinction",
+        "Combining arts + STEM shows well-rounded intellectual",
+        "Service component (nursing home volunteering) shows character"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "MIT, Caltech, Stanford (music + STEM combo)",
+        "target_schools": "Top 20 with music + STEM programs",
+        "strength_factors": ["Carnegie Hall performance", "Research", "Founded non-profit"],
+        "demographic_context": "Asian American female in STEM - need extra distinction",
+        "key_advantage": "Exceptional achievement in either music or tech alone; this student has both"
+      }
+    },
+    {
+      "id": "cultural_travel_narrative",
+      "name": "Student with Cultural Travel Experience",
+      "major": "Liberal Arts / Economics / Pre-Med (depends on region)",
+      "location": "Region with limited college aspiration",
+      "profile_summary": "Student from region without college-going culture; differentiated through travel narrative",
+      
+      "background": {
+        "challenge": "Peers don't pursue highly selective colleges",
+        "region_norm": "Students stay in region",
+        "initial_profile": "Not unique, especially at highly selective institutions",
+        "test_scores": "A bit low relative to target schools"
+      },
+      
+      "experience": {
+        "key_differentiator": "Significant family travel for cultural enrichment",
+        "focus": "Cultural exploration"
+      },
+      
+      "strategy_applied": [
+        "Leveraged travel experience as positioning strategy",
+        "Connected cultural exploration to intellectual curiosity",
+        "Demonstrated initiative beyond regional norms"
+      ],
+      
+      "outcomes": {
+        "colleges_admitted": ["Selective and highly selective universities"],
+        "lesson": "Unique experience (travel, cultural learning) can overcome test score gaps"
+      },
+      
+      "insights_for_agent": [
+        "First-generation and region-of-origin can be strong differentiators",
+        "International exposure/travel shows initiative and global mindedness",
+        "Cultural learning narrative resonates with admissions officers",
+        "Can overcome moderate test scores with compelling narrative",
+        "Initiative to pursue learning outside school is impressive",
+        "First-gen from non-college-going region is advantage at some schools",
+        "Moderate test scores OK if narrative is compelling enough"
+      ],
+      
+      "college_fit_indicators": {
+        "reach_schools": "Liberal arts colleges (value global perspective)",
+        "target_schools": "Selective universities valuing first-gen",
+        "strength_factors": ["First-gen", "International experience", "Initiative"],
+        "schools_preferring_firstgen": "Many selective schools prioritize first-gen with compelling narratives",
+        "note": "Test scores less critical with strong narrative + first-gen status"
+      }
+    }
+  ],
+  
+  "patterns_and_insights": {
+    "what_admissions_officers_value": [
+      "Authentic experiences over generic activities",
+      "Depth in one area over breadth in many",
+      "Personal narrative connecting experiences",
+      "Demonstrated passion in major of interest",
+      "Overcoming challenges/adversity",
+      "Initiative and self-directed learning",
+      "Real-world impact (internships, research, founded organizations)",
+      "Cultural/first-gen/unique perspective",
+      "Intellectual curiosity shown through action"
+    ],
+    
+    "what_doesn't_work": [
+      "Generic activities (everyone volunteers)",
+      "Spreading too thin across many activities",
+      "Canned essays (generic awakening narratives)",
+      "Transcript blemishes without explanation",
+      "Numbers alone (test scores + GPA insufficient)",
+      "Essays that don't show who student is",
+      "Trying to 'game' the system (obvious attempts)"
+    ],
+    
+    "major_specific_patterns": {
+      "cs_students": [
+        "Must show technical depth (projects/internships/research)",
+        "GitHub portfolio or published work helpful",
+        "ML/AI experience increasingly important",
+        "Startup experience valued over corporate internships",
+        "Passionate about problem-solving through code"
+      ],
+      "stem_students": [
+        "Research experience or summer programs",
+        "Science competition awards/achievements",
+        "Project-based portfolio",
+        "Show genuine curiosity, not just grades"
+      ],
+      "business_students": [
+        "Entrepreneurial experience",
+        "Business knowledge (not just MBA camps)",
+        "Leadership demonstrated through action",
+        "Real-world business problems solved"
+      ],
+      "pre_med_students": [
+        "Clinical or research healthcare experience",
+        "Shadowing professionals",
+        "Research publications help",
+        "Service in healthcare"
+      ],
+      "liberal_arts_students": [
+        "Intellectual curiosity across disciplines",
+        "Depth in major + breadth in interests",
+        "Holistic review favors narrative + soft skills",
+        "Essays are critical component"
+      ]
+    },
+    
+    "demographic_patterns": {
+      "first_generation": [
+        "Strong narrative about family background essential",
+        "Overcoming obstacles highly valued",
+        "Many selective schools prioritize first-gen",
+        "Narrative can offset moderate test scores"
+      ],
+      "asian_american": [
+        "Higher bar for admissions (demographic reality)",
+        "Need true distinction (not just high grades)",
+        "Arts + STEM combination helps",
+        "Unique perspective or accomplishment critical"
+      ],
+      "international": [
+        "Global perspective valuable",
+        "English writing clarity important",
+        "Cultural background a strength",
+        "Limited US activities OK, depth in home country matters"
+      ]
+    },
+    
+    "college_selection_wisdom": [
+      "Top students need reach schools (where you're below 75th percentile)",
+      "Target schools should be middle 50% fit (25-75th percentile)",
+      "Safety schools need acceptance rate > 60% + good fit",
+      "Holistic review schools value narrative; test-score schools don't",
+      "Geographic competition varies (CA, NY, MA more competitive)",
+      "Regional public schools often undervalued (are actually great)",
+      "Specialized dual-degree programs (Huntsman, etc.) have specific values"
+    ]
+  }
+}

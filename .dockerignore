@@ -1,0 +1,11 @@
+.env
+.env.*
+__pycache__
+*.pyc
+web/node_modules
+web/dist
+.git
+.venv
+*.md
+scratchpad
+guardrail_audit.jsonl

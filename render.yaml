@@ -1,0 +1,22 @@
+# Render Blueprint — deploys the whole site (API + built React app) as one
+# free web service. In the Render dashboard: New > Blueprint, point at this repo.
+services:
+  - type: web
+    name: kindred-path2college
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false          # set this in the dashboard (Secret)
+      - key: LLM_MODEL
+        value: minimax/minimax-m3:free
+      - key: LLM_FALLBACK_MODEL
+        value: openrouter/free
+      - key: LLM_MAX_TOKENS
+        value: "1000"
+      - key: LLM_DISABLE_REASONING
+        value: "true"
+      - key: PYTHONUNBUFFERED
+        value: "1"

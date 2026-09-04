@@ -1,0 +1,84 @@
+{
+  "college_prep": {
+    "title": "College Prep",
+    "tagline": "Know what to do, and when to do it.",
+    "intro": "You do not need connections or insider knowledge to apply well. You need a checklist and a calendar. Here is both.",
+    "timeline": [
+      { "phase": "Junior year - Fall", "tasks": ["Take the PSAT/NMSQT (opens National Merit + practice)", "Meet your school counselor; ask to be flagged for fee waivers", "Start a simple list of colleges that interest you"] },
+      { "phase": "Junior year - Spring", "tasks": ["Register for the SAT or ACT (fee waivers available for eligible students)", "Visit campuses virtually or in person", "Ask two teachers who know you well for recommendation letters"] },
+      { "phase": "Summer before senior year", "tasks": ["Draft your personal statement", "Build your college list: 2-3 reach, 3-4 target, 2-3 safety", "Create your Common App and/or Coalition App account"] },
+      { "phase": "Senior year - Fall", "tasks": ["Finalize essays and supplements", "Submit FAFSA on October 1 (as early as possible)", "Submit Early Action / Early Decision apps (Nov 1 or Nov 15)", "Request official transcripts and test scores"] },
+      { "phase": "Senior year - Winter", "tasks": ["Submit Regular Decision apps (usually Jan 1 - Jan 15)", "Complete the CSS Profile where required", "Track everything in one place"] },
+      { "phase": "Senior year - Spring", "tasks": ["Compare financial aid award letters (not just sticker price)", "Attend admitted-student days", "Commit by May 1 and submit your enrollment deposit (waivers exist)"] }
+    ],
+    "links": [
+      { "name": "Common Application", "url": "https://www.commonapp.org/", "note": "One application, 1000+ colleges. Fee waiver built in." },
+      { "name": "Coalition for College", "url": "https://www.coalitionforcollege.org/", "note": "Alternative application used by many public universities." },
+      { "name": "Khan Academy - Official SAT Practice", "url": "https://www.khanacademy.org/sat", "note": "Free, personalized SAT prep." },
+      { "name": "ACT Academy", "url": "https://academy.act.org/", "note": "Free official ACT practice." },
+      { "name": "College Board - SAT Fee Waivers", "url": "https://satsuite.collegeboard.org/sat/registration/fee-waivers", "note": "Covers test fees, score sends, and college app fees." },
+      { "name": "NACAC College Fairs", "url": "https://www.nacacfairs.org/", "note": "Meet admissions reps from hundreds of colleges, free." }
+    ]
+  },
+  "financial_aid": {
+    "title": "Financial Aid",
+    "tagline": "The sticker price is almost never what you pay.",
+    "intro": "Financial aid is money for college you usually do not pay back - grants, scholarships, and work-study. Filing the FAFSA is the single most important thing you can do. It is free and it takes most families under an hour.",
+    "glossary": [
+      { "term": "FAFSA", "definition": "Free Application for Federal Student Aid. The form that unlocks federal grants, loans, work-study, and most state and school aid. File every year." },
+      { "term": "CSS Profile", "definition": "An additional aid form (~$25, waivable) required by about 200 mostly-private colleges to award their own institutional grants." },
+      { "term": "SAI", "definition": "Student Aid Index. A number from your FAFSA that colleges use to estimate what your family can contribute. Can be as low as -1500." },
+      { "term": "Pell Grant", "definition": "Federal grant of up to ~$7,400/year for students with high financial need. Does not need to be repaid." },
+      { "term": "Need-based aid", "definition": "Aid awarded because of your financial situation." },
+      { "term": "Merit aid", "definition": "Aid awarded for grades, test scores, talent, or other achievements, regardless of need." },
+      { "term": "Meets full need", "definition": "A college promises to cover 100% of your demonstrated need with aid (often no loans). About 70 colleges do this." },
+      { "term": "Net price", "definition": "Total cost of attendance minus grants and scholarships. The number that actually matters when comparing colleges." },
+      { "term": "Work-study", "definition": "A part-time campus job funded by federal aid, with hours that flex around your classes." }
+    ],
+    "steps": [
+      "Create your FSA ID at studentaid.gov (both you and a parent need one).",
+      "Gather tax returns, W-2s, and records of untaxed income.",
+      "File the FAFSA as soon as it opens (Oct 1 / Dec 1 depending on year). Earlier = more aid available.",
+      "List every college you might apply to on the FAFSA - it costs nothing.",
+      "Check each college's site for a CSS Profile requirement and its own aid deadline.",
+      "Run each college's Net Price Calculator for a personalized estimate before you apply.",
+      "When awards arrive, compare net price, not sticker price. Appeal if your situation changed."
+    ],
+    "links": [
+      { "name": "Federal Student Aid (studentaid.gov)", "url": "https://studentaid.gov/", "note": "Start here. FSA ID, FAFSA, loan info." },
+      { "name": "FAFSA Application", "url": "https://studentaid.gov/h/apply-for-aid/fafsa", "note": "The form itself. Free, always." },
+      { "name": "CSS Profile", "url": "https://cssprofile.collegeboard.org/", "note": "Fee waivers are automatic for many low-income students." },
+      { "name": "College Scorecard", "url": "https://collegescorecard.ed.gov/", "note": "Compare net price, graduation rates, and post-college earnings." },
+      { "name": "Net Price Calculator Center", "url": "https://collegecost.ed.gov/net-price", "note": "Find any college's required net price calculator." },
+      { "name": "SwiftStudent - Financial Aid Appeals", "url": "https://formswift.com/swift-student", "note": "Free templates to appeal an aid offer." }
+    ]
+  },
+  "scholarships": {
+    "title": "Scholarships",
+    "tagline": "Free money, and there is a lot of it aimed at students like you.",
+    "intro": "Many scholarships specifically prioritize first-generation, low-income, and underrepresented students. Apply to a mix of large national programs and small local ones - local scholarships have far less competition.",
+    "tips": [
+      "Start with local: your high school counselor's list, community foundations, employers, faith and cultural organizations.",
+      "Never pay to apply for or search for a scholarship. Legitimate scholarships are free.",
+      "Reuse your essays. Most prompts are variations on 'tell us about yourself' and 'why does this matter to you'.",
+      "Apply to small awards ($250-$1,000) - they add up and have low applicant counts.",
+      "Track deadlines in the same calendar as your college applications."
+    ],
+    "programs": [
+      { "name": "QuestBridge National College Match", "focus": "High-achieving, low-income students", "award": "Full four-year scholarships to 50+ partner colleges", "deadline": "Late September", "url": "https://www.questbridge.org/" },
+      { "name": "Coca-Cola Scholars Program", "focus": "Leadership and service; all backgrounds", "award": "$20,000", "deadline": "Early October", "url": "https://www.coca-colascholarsfoundation.org/" },
+      { "name": "Jack Kent Cooke Foundation College Scholarship", "focus": "High-need, high-ability seniors", "award": "Up to $55,000/year", "deadline": "November", "url": "https://www.jkcf.org/our-scholarships/college-scholarship-program/" },
+      { "name": "Gates Scholarship", "focus": "Minority, Pell-eligible high school seniors", "award": "Full cost of attendance not covered by other aid", "deadline": "Mid-September", "url": "https://www.thegatesscholarship.org/" },
+      { "name": "Dell Scholars Program", "focus": "Students in college-readiness programs with financial need", "award": "$20,000 + laptop + support services", "deadline": "December", "url": "https://www.dellscholars.org/" },
+      { "name": "Hispanic Scholarship Fund", "focus": "Students of Hispanic heritage", "award": "$500-$5,000", "deadline": "February", "url": "https://www.hsf.net/" },
+      { "name": "UNCF (United Negro College Fund)", "focus": "African American students", "award": "Varies by program", "deadline": "Rolling", "url": "https://uncf.org/scholarships" },
+      { "name": "TheDream.US Scholarship", "focus": "Undocumented students with DACA or TPS", "award": "Up to $33,000", "deadline": "Late February", "url": "https://www.thedream.us/scholarships/" }
+    ],
+    "links": [
+      { "name": "Going Merry", "url": "https://www.goingmerry.com/", "note": "Free scholarship matching and one-click applications." },
+      { "name": "Scholarships.com", "url": "https://www.scholarships.com/", "note": "Large searchable database. Free." },
+      { "name": "Fastweb", "url": "https://www.fastweb.com/", "note": "Scholarship matching by profile. Free." },
+      { "name": "College Greenlight", "url": "https://www.collegegreenlight.com/", "note": "Built for first-gen and underrepresented students." }
+    ]
+  }
+}

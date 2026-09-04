@@ -1,0 +1,448 @@
+{
+  "_note": "Distilled college-essay coaching methodology for RAG retrieval by the Essay Agent. Original summaries of publicly taught frameworks - NOT verbatim excerpts. Frameworks adapted from Ethan Sawyer / College Essay Guy ('College Essay Essentials'), College Essay Advisors' Common App & UC prompt guides, Robert McKee's 'Story' (craft principle only), and Brene Brown's 'The Power of Vulnerability' (craft principle only). See essayresourcesfromschool/ for the source packet.",
+  "cards": [
+    {
+      "id": "path_diagnosis",
+      "kind": "path",
+      "title": "Which essay path fits this student",
+      "applies_to": { "stage": ["brainstorm"] },
+      "themes": ["diagnosis", "path", "structure choice", "where to start"],
+      "summary": "Two questions decide the approach. (1) Has the student navigated a significant challenge? The student alone decides what counts - first-gen status, low income, a parent's illness or job loss, heavy work hours, caregiving, a learning difference, moving countries or a home language other than English all qualify. (2) Do they know what they want to study? The 2x2 gives four paths: A = challenge + known major; B = no major challenge + known major; C = challenge + undecided; D = neither. A and C suit a narrative (single story over time); B and D suit a montage (several moments under one lens). If the student is unsure, ask the two questions before giving structure advice.",
+      "prompts_for_student": [
+        "Have you been through something that shaped you that most of your classmates haven't? (You decide what counts.)",
+        "Do you have a sense of what you'd like to study, even loosely?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "path_A",
+      "kind": "path",
+      "title": "Path A - faced a challenge, knows the major",
+      "applies_to": { "path": ["A"], "stage": ["brainstorm", "drafting"] },
+      "themes": ["challenge", "career", "values", "narrative", "purpose"],
+      "summary": "The through-line is values. Map it: challenges -> the effects they had on you -> what you actually did in response -> the resources, skills and values you built -> how those serve you in the field you want to enter. The essay is not about the hardship; it is about what you did with it and who that made you. Aim for a rough thirds split: challenge and its effects, what you did, what you learned that pointed you toward this path. Narrative structure fits well.",
+      "prompts_for_student": [
+        "List the challenges, then for each: what did it cost you, and what did you do about it?",
+        "What qualities did those actions build in you? Push past the obvious ones.",
+        "What does an excellent [their field] actually need - and which of your qualities match?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "path_B",
+      "kind": "path",
+      "title": "Path B - no major challenge, knows the major",
+      "applies_to": { "path": ["B"], "stage": ["brainstorm", "drafting"] },
+      "themes": ["values", "montage", "career", "no challenge", "focusing lens"],
+      "summary": "Write it backwards. Start from the qualities a great [their field] needs - reach for a few unexpected ones, not just 'hard-working' and 'helps people'. For each quality, find a concrete moment from the student's life that shows they have it. Then dig for the insight in each moment: something they understand about it that most people wouldn't. Spend the first two-thirds showing those moments with real detail; name a possible direction of study around the two-thirds mark; use the last third to connect the shown values to what they want to study. Keep the ending from being obvious - if every moment screams 'doctor', the reveal falls flat.",
+      "prompts_for_student": [
+        "What five qualities make someone excellent at [field]? Include at least two surprising ones.",
+        "For each quality, when in your life did you show it? Be specific about the moment.",
+        "For each of those moments, ask 'so what?' twice - what do you see in it that others wouldn't?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "path_C",
+      "kind": "path",
+      "title": "Path C - faced a challenge, undecided on major",
+      "applies_to": { "path": ["C"], "stage": ["brainstorm", "drafting"] },
+      "themes": ["challenge", "values", "narrative", "undecided", "growth"],
+      "summary": "Same values chain as Path A but without needing to land on a career: challenges -> effects -> what you did -> values that travel with you whatever you study. Be the person who acted, not the person things happened to. Name the challenge early but don't dwell there - the piece should turn from difficulty to response by about the midpoint, and no more than half should be about the hardship itself. End on how you're different now.",
+      "prompts_for_student": [
+        "What did you do - concretely - to change or handle the situation?",
+        "What did that teach you about yourself that will hold true no matter your major?",
+        "How are things different for you now than before this started?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "path_D",
+      "kind": "path",
+      "title": "Path D - no major challenge, undecided on major",
+      "applies_to": { "path": ["D"], "stage": ["brainstorm", "drafting"] },
+      "themes": ["montage", "focusing lens", "no challenge", "undecided", "patience"],
+      "summary": "The most open path - the work is finding a focusing lens that lets the student explore a wide range of values. Six ways in: (1) pick a placeholder career and write toward its values; (2) look for a theme that repeats across earlier brainstorms (e.g. 'home', 'building things'); (3) look for an interesting contradiction in themselves (loves solitude and loves crowds); (4) take a possible red flag and reframe it as a strength; (5) list their top three to five life lessons and freewrite; (6) pick something they genuinely love and write about it unabashedly, mining it for lessons. Be patient - the right lens rarely shows up first.",
+      "prompts_for_student": [
+        "What's something you could talk about for an hour without getting bored?",
+        "What themes keep showing up when you list what matters to you?",
+        "Is there a contradiction in you that would be interesting to explore?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "structure_narrative",
+      "kind": "structure",
+      "title": "Narrative structure (one story, cause and effect)",
+      "applies_to": { "structure": ["narrative"], "stage": ["brainstorm", "structure", "drafting"] },
+      "themes": ["narrative", "structure", "hero's journey", "story", "chronological"],
+      "summary": "One story where each moment causes the next, roughly chronological. Six beats: (1) status quo - normal life before; (2) inciting incident - the thing that starts it, often the hardest moment; (3) raise the stakes - it gets harder or matters more; (4) turning point - a shift, usually a choice the student makes to act; (5) what they did about it; (6) new status quo - how they and their life are different now. You can open on the inciting incident and fill in the status quo after if that's more gripping. Best for essays about a challenge or a single transformative experience.",
+      "prompts_for_student": [
+        "What moment kicked this story off?",
+        "Where did it turn - what choice did you make?",
+        "What's the smallest concrete detail that shows how things are different now?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "structure_montage",
+      "kind": "structure",
+      "title": "Montage structure (several moments, one lens)",
+      "applies_to": { "structure": ["montage"], "stage": ["brainstorm", "structure", "drafting"] },
+      "themes": ["montage", "structure", "focusing lens", "thematic", "framing device"],
+      "summary": "Several moments that don't have to be in time order, held together by a focusing lens - an object, activity, place, role or metaphor the student knows well. A good lens is visual, is something they can speak about with authority, and is wide enough to touch several different sides of who they are. Each section is usually one moment plus one insight. Best when there's no single dramatic story - the lens creates the coherence a plot would otherwise provide.",
+      "prompts_for_student": [
+        "What object or activity could you use as a thread through several different stories about yourself?",
+        "Does your lens let you talk about at least three unrelated-seeming parts of your life?",
+        "What's one moment per value you want to show?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "technique_values_engine",
+      "kind": "technique",
+      "title": "The values chain",
+      "applies_to": { "stage": ["brainstorm"] },
+      "themes": ["values", "challenge", "career", "brainstorm", "unexpected values"],
+      "summary": "The brainstorm grid that feeds most personal statements: Challenges -> Effects -> What I did -> Values -> (for Path A) qualities of a great [career]. One challenge can have several effects; list all the positive actions taken, however small (got a job, cooked for siblings, asked a teacher for help). For values, push past the predictable - 'teaching myself to cook' gives the obvious 'responsibility' but also the more surprising 'artistry' or 'privacy', and the surprising ones make the essay memorable. Predictable values aren't wrong, but they demand a more original 'so what'. Then draw threads: where does a challenge connect all the way through to a quality the student's future field needs?",
+      "prompts_for_student": [
+        "For each hard thing: what did it actually change about your day-to-day?",
+        "What did you do in response? List everything, even the small stuff.",
+        "What's a value you gained here that would surprise someone who knows you?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "technique_show_and_tell",
+      "kind": "technique",
+      "title": "Show the action, tell the 'so what'",
+      "applies_to": { "stage": ["drafting", "revising"] },
+      "themes": ["show don't tell", "so what", "reflection", "insight", "structure"],
+      "summary": "Strong essays alternate between showing (a vivid, specific scene the reader lives through) and telling (the reflection - what the student now understands because of it). Don't make the reader guess the point; state the insight, but earn it with the scene first. Aim for three to five moments of genuine insight across the essay, placed at the a-ha points. Insights should be illuminating, not predictable - a lesson slightly beyond what the average person would draw from that moment. The alternation can happen within a paragraph or across paragraphs of scene then paragraphs of reflection; both work.",
+      "prompts_for_student": [
+        "For your key scene: what did you realize, and is that realization obvious or slightly surprising?",
+        "Where in the draft are you telling the reader a lesson without showing the moment that taught it?",
+        "Can you find two or three more 'so what' beats?"
+      ],
+      "source": "College Essay Advisors; Trevor Noah 'Born a Crime' used as a teaching model in the source packet"
+    },
+    {
+      "id": "technique_show_the_feeling",
+      "kind": "technique",
+      "title": "Show the feeling, don't name it",
+      "applies_to": { "stage": ["drafting", "revising"] },
+      "themes": ["show don't tell", "emotion", "voice", "detail"],
+      "summary": "Naming an emotion ('I was embarrassed', 'I felt proud') tells the reader what to feel instead of letting them feel it. Replace the label with the physical or behavioural evidence of it - what the student did, saw, wanted to do. 'I wanted to disappear from the field' does more than 'I was embarrassed'. Point at specific lines in the draft where an emotion is named and ask what it looked like from the outside.",
+      "prompts_for_student": [
+        "You wrote that you felt [X] here - what were you doing with your hands, your eyes, your feet in that moment?",
+        "What did you want to do that you didn't?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "technique_evocative_detail",
+      "kind": "technique",
+      "title": "Evocative sensory detail",
+      "applies_to": { "stage": ["drafting", "revising"] },
+      "themes": ["detail", "imagery", "senses", "scene", "specificity"],
+      "summary": "Scenes come alive through specific, sometimes surprising sensory detail: sight (colour, texture, light, a person's posture and expression), sound (ambient noise, a voice's tone), smell, taste, touch (temperature, weight, texture). Don't over-describe the ordinary; spend detail where it's unusual or where its absence is telling. Domain-specific vocabulary - the real words from a student's sport, job, hobby or family kitchen - signals genuine expertise and belongs in the essay.",
+      "prompts_for_student": [
+        "Pick your most important scene. What could you hear? What did the air smell like?",
+        "What's a word an insider to your activity would use that an outsider wouldn't know?",
+        "Which detail here is doing real work, and which is just decoration you could cut?"
+      ],
+      "source": "Evocative Detail worksheet (source packet)"
+    },
+    {
+      "id": "technique_choice_under_pressure",
+      "kind": "technique",
+      "title": "Character shows in choices under pressure",
+      "applies_to": { "stage": ["brainstorm", "drafting", "revising"] },
+      "themes": ["character", "choice", "pressure", "stakes", "revision"],
+      "summary": "Who someone really is comes through in the choices they make when something is at stake - and the bigger the stake, the truer the choice. A decision with nothing on the line reveals little. When helping a student find or sharpen a story, look for the moment they had to choose something hard, and make the cost of that choice visible on the page. If the draft has a decision but no stakes, the reader can't feel the character in it.",
+      "prompts_for_student": [
+        "In your story, what was the hard choice, and what would it have cost you to choose the other way?",
+        "What did choosing that reveal about what you value?"
+      ],
+      "source": "Craft principle from Robert McKee, 'Story' (paraphrased)"
+    },
+    {
+      "id": "technique_vulnerability",
+      "kind": "technique",
+      "title": "Authentic voice and healthy vulnerability",
+      "applies_to": { "stage": ["brainstorm", "drafting", "revising"] },
+      "themes": ["voice", "vulnerability", "authenticity", "honesty", "self-worth"],
+      "summary": "A real essay is the student telling the story of who they are honestly, in their own voice - not the voice they think admissions wants. Vulnerability here means being willing to be seen: showing a real doubt, a real change of mind, a real feeling. It does not mean confession or shock - the student never has to disclose more than they're comfortable with, and graphic detail is not what makes a point land. Encourage the plain, specific, true sentence over the polished, impressive one.",
+      "prompts_for_student": [
+        "What's a true thing about this experience you've been softening or leaving out?",
+        "Does this sound like you talking, or like an 'application voice'?"
+      ],
+      "source": "Craft principle from Brene Brown, 'The Power of Vulnerability' (paraphrased)"
+    },
+    {
+      "id": "boundary_how_much_to_share",
+      "kind": "pitfall",
+      "title": "How much to share, and whether the topic is ready",
+      "applies_to": { "stage": ["brainstorm", "drafting", "revising"] },
+      "themes": ["sensitive", "trauma", "distance", "disclosure", "boundaries"],
+      "summary": "The test for a hard topic is distance: can the student reflect on it and say what they learned, or are they still inside it? Writing about a raw, current situation under deadline pressure can be draining and can produce an essay that's all wound and no reflection. It's fine to steer toward a topic they have more perspective on. On disclosure: share what's relevant to the point being made; the reader doesn't need every detail, and shocking them is not the goal. What a college wants is not the struggle but what the student did with it.",
+      "prompts_for_student": [
+        "Do you have enough distance from this to tell me what it taught you?",
+        "Which details here serve your point, and which are just intense?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "pitfall_challenge_and_action_same_sentence",
+      "kind": "pitfall",
+      "title": "Don't collapse challenge and response into one sentence",
+      "applies_to": { "path": ["A", "C"], "structure": ["narrative"], "stage": ["drafting", "revising"] },
+      "themes": ["structure", "challenge", "tension", "pacing"],
+      "summary": "Sentences like 'My mother got sick, so I took over the cooking and learned responsibility' resolve the tension before it builds and make the essay feel like a list. Keep the challenges together in their own section and don't resolve them until later, in a separate section. This builds tension and keeps the piece organised.",
+      "prompts_for_student": [
+        "Are you naming the problem and the fix in the same breath? Try separating them by a few paragraphs."
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "pitfall_dwelling_in_the_problem",
+      "kind": "pitfall",
+      "title": "Turn from problem to response by the midpoint",
+      "applies_to": { "path": ["A", "C"], "stage": ["drafting", "revising"] },
+      "themes": ["challenge", "solutions", "balance", "resilience"],
+      "summary": "An obstacle essay should be mostly about the student's response, outlook and actions - not a detailed account of the obstacle. If more than half the draft is the hardship, rebalance. The qualities to surface are resilience, resourcefulness and humility, shown through what they did.",
+      "prompts_for_student": [
+        "Roughly what fraction of your draft is the problem vs. what you did about it?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "pitfall_obvious_ending",
+      "kind": "pitfall",
+      "title": "Don't let the montage ending be obvious",
+      "applies_to": { "structure": ["montage"], "stage": ["drafting", "revising"] },
+      "themes": ["montage", "ending", "predictability"],
+      "summary": "If every section of a montage points at the same career, the final reveal ('...and that's why I want to be a doctor') is flat. Vary what the moments show, or let the concluding direction be a little unexpected given the pieces.",
+      "prompts_for_student": [
+        "If I read your body paragraphs with the last line covered, could I guess the ending exactly?"
+      ],
+      "source": "College Essay Guy / Ethan Sawyer"
+    },
+    {
+      "id": "pitfall_resume_in_prose",
+      "kind": "pitfall",
+      "title": "Don't narrate your resume",
+      "applies_to": { "stage": ["drafting", "revising"] },
+      "themes": ["specificity", "focus", "activities", "supplemental"],
+      "summary": "Listing accomplishments or activities in paragraph form wastes the one place on the application built for a single story told in depth. Isolate one moment and bring it to life; the reader already has the activities list.",
+      "prompts_for_student": [
+        "Is this a list of things you've done, or one moment I can picture?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_commonapp_1_background",
+      "kind": "prompt",
+      "title": "Common App 1 - background / identity / interest / talent",
+      "applies_to": { "prompt_set": ["common_app"], "stage": ["brainstorm"] },
+      "themes": ["identity", "background", "family", "culture", "talent"],
+      "summary": "The most flexible prompt. Use the keywords - background, identity, interest, talent - as launch points. The subject can be small (a show you love, a family ritual) or large (migration, a home language); what matters is that the angle is specific to this student and no one else. Works as narrative or montage.",
+      "prompts_for_student": [
+        "What about your background sets you apart from the people around you?",
+        "How do the people closest to you describe you?",
+        "What would your application be missing if this weren't in it?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_2_setback",
+      "kind": "prompt",
+      "title": "Common App 2 - challenge, setback or failure",
+      "applies_to": { "prompt_set": ["common_app"], "path": ["A", "C"], "stage": ["brainstorm"] },
+      "themes": ["setback", "failure", "resilience", "growth"],
+      "summary": "Focus on response more than problem. The obstacle can be large or small but shouldn't be trivial (a single bad grade) or show poor judgement. Keep it fundamentally positive - it's about refusing to be sunk, not a catalogue of hard times. Surface resilience, determination, humility.",
+      "prompts_for_student": [
+        "What counts as a real setback in your world?",
+        "Are you someone who turns bad experiences into something learned? Which one shows that?",
+        "Where was the silver lining, and what did you do to find it?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_3_challenge_belief",
+      "kind": "prompt",
+      "title": "Common App 3 - questioned or challenged a belief",
+      "applies_to": { "prompt_set": ["common_app"], "stage": ["brainstorm"] },
+      "themes": ["belief", "values", "conviction", "open-mindedness"],
+      "summary": "Hard to do without sounding preachy. It doesn't need a groundbreaking issue - what matters is genuine conviction plus a willingness to consider other views. Weigh the risk of a polarising topic for an unknown reader. Best when the student already has a specific story or stance in mind.",
+      "prompts_for_student": [
+        "When has your opinion been the unpopular one?",
+        "What do you believe strongly enough to have acted on it?",
+        "Where did you change your mind after hearing someone out?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_4_gratitude",
+      "kind": "prompt",
+      "title": "Common App 4 - gratitude",
+      "applies_to": { "prompt_set": ["common_app"], "stage": ["brainstorm"] },
+      "themes": ["gratitude", "kindness", "relationships"],
+      "summary": "Reflect on something someone did that made the student thankful in a surprising way, and how that gratitude moved them to act. Keep the focus on the student - how they process and repay good intentions - not just a portrait of the kind person. Link the gift to their own passions or aspirations.",
+      "prompts_for_student": [
+        "When have you felt truly seen or helped?",
+        "How did you pass that forward?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_5_accomplishment_growth",
+      "kind": "prompt",
+      "title": "Common App 5 - accomplishment, event or realization that sparked growth",
+      "applies_to": { "prompt_set": ["common_app"], "stage": ["brainstorm"] },
+      "themes": ["growth", "realization", "transformation", "maturity"],
+      "summary": "'Accomplishment' and 'event' are broad - a small moment (a conversation, a meal) often makes a fresher essay than a formal award. The core is growth, understanding and transformation: something that made the student see the world through a more mature lens. Highlight intangible qualities that appear nowhere else on the application.",
+      "prompts_for_student": [
+        "When did you have a realization that changed how you lived afterward?",
+        "When did you first feel more grown up?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_6_passion",
+      "kind": "prompt",
+      "title": "Common App 6 - topic that makes you lose track of time",
+      "applies_to": { "prompt_set": ["common_app"], "path": ["B", "D"], "stage": ["brainstorm"] },
+      "themes": ["passion", "curiosity", "learning", "intellectual"],
+      "summary": "A window into how the student thinks and how they chase down what interests them. Show the process of pursuing knowledge - where they go to learn more, how deep they've dug. Reveals breadth or depth of interest. Good fit for montage / Path B and D.",
+      "prompts_for_student": [
+        "What do you go down rabbit holes about?",
+        "What have you done to learn more that nobody made you do?",
+        "Who or what do you turn to when your curiosity is piqued?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_commonapp_7_choice",
+      "kind": "prompt",
+      "title": "Common App 7 - topic of your choice",
+      "applies_to": { "prompt_set": ["common_app"], "stage": ["brainstorm"] },
+      "themes": ["open topic", "freewrite", "identity"],
+      "summary": "Total freedom, which can stall a student. Use the other six prompts as brainstorm starters and freewrite; then check whether the idea actually fits one of prompts 1-6, since tailoring to a specific prompt often sharpens the story. If it genuinely fits none, prompt 7 is the home for it.",
+      "prompts_for_student": [
+        "What do you want admissions to know that isn't anywhere else in your application?",
+        "What story about you comes up again and again with friends or family?",
+        "What would you bring to a campus that no one else would?"
+      ],
+      "source": "College Essay Advisors"
+    },
+    {
+      "id": "prompt_uc_piq_1_leadership",
+      "kind": "prompt",
+      "title": "UC PIQ 1 - leadership",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["leadership", "influence", "responsibility", "family"],
+      "summary": "Leadership includes mentoring, running a task or project, resolving a dispute, or holding a family together - it need not be a title. Isolate one leadership moment and give it vivid detail: where you were, what was happening, what you felt, what was hard, what you learned. Don't restate the activities list.",
+      "prompts_for_student": [
+        "What was a single moment you led, and what was at stake?",
+        "Did you take care of your family in a way that counts here?",
+        "How did leading change how you see leading?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_2_creativity",
+      "kind": "prompt",
+      "title": "UC PIQ 2 - creative side",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["creativity", "problem solving", "innovation"],
+      "summary": "Creativity is broad: problem-solving, original thinking, art, a new angle on a stuck problem. Strong for STEM-leaning students who want a rounder profile. Show, don't tell - walk through the actual steps of a creative solution.",
+      "prompts_for_student": [
+        "What does creativity mean for you specifically?",
+        "Tell me a problem you solved sideways - what were the steps?",
+        "Does this creativity connect to what you want to study?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_3_talent",
+      "kind": "prompt",
+      "title": "UC PIQ 3 - greatest talent or skill",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["talent", "skill", "development", "pride"],
+      "summary": "No awards required. Think about the stories family and friends tell about the student, and moments when hard work paid off. Zero in on the experience that makes their heart swell - that points to the real subject. Cover how the talent developed and was shown over time.",
+      "prompts_for_student": [
+        "What are you quietly proud of?",
+        "Did this come naturally or did you grind for it?",
+        "Where does it show up in your life?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_4_educational_opportunity_or_barrier",
+      "kind": "prompt",
+      "title": "UC PIQ 4 - educational opportunity or barrier (pick one)",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["education", "opportunity", "barrier", "access"],
+      "summary": "Answer only one half. Opportunity: a program, internship or class that added real value - show the ambition and the qualities it took to make the most of it. Barrier: what got in the way of your education and how you worked to overcome it - what personal qualities you drew on, and how that shaped who you are and what you'll do next.",
+      "prompts_for_student": [
+        "What opportunity showed what excites and challenges you?",
+        "Or: what barrier did you face, and what did you call on to get past it?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_5_significant_challenge",
+      "kind": "prompt",
+      "title": "UC PIQ 5 - most significant challenge",
+      "applies_to": { "prompt_set": ["uc_piq"], "path": ["A", "C"], "stage": ["brainstorm"] },
+      "themes": ["challenge", "resilience", "academic impact"],
+      "summary": "A question about struggle that's really asking for a story about success. Cover the proactive steps taken - even if the solution wasn't perfect, what was learned - and how the challenge affected academic achievement. Highlight the upside: how it shaped who the student is and what skills carry forward. If UC PIQ 4 already used option 2 (barrier), this one may feel redundant - choose a different challenge or a different prompt.",
+      "prompts_for_student": [
+        "What did you actually do about it, step by step?",
+        "What courageous or resourceful side of yourself did you find?",
+        "Did you handle it alone or with support?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_6_academic_subject",
+      "kind": "prompt",
+      "title": "UC PIQ 6 - academic subject that inspires you",
+      "applies_to": { "prompt_set": ["uc_piq"], "path": ["B", "D"], "stage": ["brainstorm"] },
+      "themes": ["academic interest", "major fit", "curiosity"],
+      "summary": "Build a bridge between the scholarly and the personal. Work in either direction: from a favourite subject out to what the student does with it outside class, or from a hobby back to its classroom roots. Cover how the interest developed, what they did with it, what impact they had, and whether it's shaping a major choice.",
+      "prompts_for_student": [
+        "What subject can't you get enough of, and what have you done with it beyond class?",
+        "Or: trace a hobby back - where did it start in school?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_7_community",
+      "kind": "prompt",
+      "title": "UC PIQ 7 - made your school or community better",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["community", "service", "impact", "motivation"],
+      "summary": "Define community however fits, but center the student's role in it. Avoid platitudes by grounding it in specific life detail, and don't use the action-then-lesson template - dig into motivation. Pick one moment of change, however small, that mattered to the student; bring it to life, then reflect on what it taught them and how they'll keep at it.",
+      "prompts_for_student": [
+        "What did you want to fix, and why did it get to you?",
+        "Who did it help, and did you do it alone or with others?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    },
+    {
+      "id": "prompt_uc_piq_8_strong_candidate",
+      "kind": "prompt",
+      "title": "UC PIQ 8 - what makes you a strong candidate",
+      "applies_to": { "prompt_set": ["uc_piq"], "stage": ["brainstorm"] },
+      "themes": ["open topic", "fit", "self-advocacy"],
+      "summary": "The catch-all for anything important that has no home elsewhere in the application - a skill, talent, challenge or opportunity. It's fine to name specific strengths of the target campus and why they fit the student, and to make the case for themselves directly.",
+      "prompts_for_student": [
+        "What haven't you gotten to say yet that would help them know you?",
+        "What about this campus fits you specifically?"
+      ],
+      "source": "College Essay Advisors (UC PIQ guide)"
+    }
+  ]
+}

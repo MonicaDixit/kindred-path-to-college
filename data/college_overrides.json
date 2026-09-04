@@ -1,0 +1,70 @@
+{
+  "_comment": "Hand-curated data the College Scorecard API does not provide. Keyed by the slug build_colleges.py assigns (legacy slugs for the original 6; else generated). Deep-merged over the Scorecard record. GPA percentiles are from each school's published Common Data Set. meets_full_need reflects public no-loan / full-need commitments. Deadlines are Regular Decision.",
+
+  "stanford": {
+    "gpa": {"average": 3.95, "25th_percentile": 3.9, "75th_percentile": 4.0},
+    "cost": {"meets_full_need": true},
+    "admissions": {"essays_required": 2, "application_deadline": "2026-01-05", "financial_aid_deadline": "2026-02-15"}
+  },
+  "berkeley": {
+    "gpa": {"average": 3.89, "25th_percentile": 3.78, "75th_percentile": 4.0},
+    "cost": {"meets_full_need": true},
+    "admissions": {"essays_required": 4, "application_deadline": "2025-12-02", "financial_aid_deadline": "2026-03-02"}
+  },
+  "caltech": {
+    "gpa": {"average": 3.97, "25th_percentile": 3.92, "75th_percentile": 4.0},
+    "cost": {"meets_full_need": true},
+    "admissions": {"essays_required": 3, "application_deadline": "2026-01-03", "financial_aid_deadline": "2026-02-15"}
+  },
+  "uw": {
+    "gpa": {"average": 3.77, "25th_percentile": 3.56, "75th_percentile": 3.96},
+    "admissions": {"essays_required": 2, "application_deadline": "2025-11-15", "financial_aid_deadline": "2026-02-28"}
+  },
+  "ut-austin": {
+    "gpa": {"average": 3.83, "25th_percentile": 3.67, "75th_percentile": 4.0},
+    "admissions": {"essays_required": 1, "application_deadline": "2025-12-01", "financial_aid_deadline": "2026-01-15"}
+  },
+  "uiuc": {
+    "gpa": {"average": 3.74, "25th_percentile": 3.5, "75th_percentile": 3.95},
+    "admissions": {"essays_required": 2, "application_deadline": "2026-01-05", "financial_aid_deadline": "2026-03-15"}
+  },
+
+  "harvard": {"gpa": {"average": 3.95, "25th_percentile": 3.9, "75th_percentile": 4.0}, "cost": {"meets_full_need": true}},
+  "princeton": {"gpa": {"average": 3.95, "25th_percentile": 3.9, "75th_percentile": 4.0}, "cost": {"meets_full_need": true}},
+  "yale": {"gpa": {"average": 3.95, "25th_percentile": 3.9, "75th_percentile": 4.0}, "cost": {"meets_full_need": true}},
+  "columbia": {"cost": {"meets_full_need": true}},
+  "brown": {"cost": {"meets_full_need": true}},
+  "cornell": {"cost": {"meets_full_need": true}},
+  "dartmouth": {"cost": {"meets_full_need": true}},
+  "pennsylvania": {"cost": {"meets_full_need": true}},
+  "massachusetts-institute-technology": {"gpa": {"average": 3.96, "25th_percentile": 3.92, "75th_percentile": 4.0}, "cost": {"meets_full_need": true}},
+  "duke": {"cost": {"meets_full_need": true}},
+  "northwestern": {"cost": {"meets_full_need": true}},
+  "chicago": {"cost": {"meets_full_need": true}},
+  "vanderbilt": {"cost": {"meets_full_need": true}},
+  "rice": {"cost": {"meets_full_need": true}},
+  "johns-hopkins": {"cost": {"meets_full_need": true}},
+  "notre-dame": {"cost": {"meets_full_need": true}},
+  "georgetown": {"cost": {"meets_full_need": true}},
+  "california-los-angeles": {"cost": {"meets_full_need": true}},
+  "michigan-ann-arbor": {"cost": {"meets_full_need": true}},
+  "north-carolina-chapel-hill": {"cost": {"meets_full_need": true}},
+  "virginia-charlottesville": {"cost": {"meets_full_need": true}},
+  "amherst-college": {"cost": {"meets_full_need": true}},
+  "williams-college": {"cost": {"meets_full_need": true}},
+  "pomona-college": {"cost": {"meets_full_need": true}},
+  "swarthmore-college": {"cost": {"meets_full_need": true}},
+  "bowdoin-college": {"cost": {"meets_full_need": true}},
+  "grinnell-college": {"cost": {"meets_full_need": true}},
+  "davidson-college": {"cost": {"meets_full_need": true}},
+  "vassar-college": {"cost": {"meets_full_need": true}},
+  "wellesley-college": {"cost": {"meets_full_need": true}},
+  "smith-college": {"cost": {"meets_full_need": true}},
+  "colby-college": {"cost": {"meets_full_need": true}},
+  "hamilton-college": {"cost": {"meets_full_need": true}},
+  "middlebury-college": {"cost": {"meets_full_need": true}},
+  "haverford-college": {"cost": {"meets_full_need": true}},
+  "washington-lee": {"cost": {"meets_full_need": true}},
+  "trinity-college": {"cost": {"meets_full_need": true}},
+  "colgate": {"cost": {"meets_full_need": true}}
+}

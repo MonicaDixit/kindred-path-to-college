@@ -1,0 +1,77 @@
+{
+  "_note": "Illustrative composite excerpts for RAG retrieval by the Essay Agent. Not real student submissions.",
+  "examples": [
+    {
+      "id": "stanford_intellectual_vitality_soccer_lab",
+      "college": "stanford",
+      "prompt": "The Stanford community is deeply curious and driven to learn. Reflect on an idea or experience that makes you genuinely excited about learning.",
+      "themes": ["intellectual vitality", "identity", "STEM", "athlete"],
+      "excerpt": "The morning after our double-overtime loss I was back in the training room, but not for ice. I wanted to know why my hamstring gave out at minute 78 and not minute 20. That question pulled me into a summer of reading about muscle fatigue and lactate thresholds, then into my coach's spreadsheet of sprint times, then into my own clumsy regression on the bus home from games.",
+      "why_it_worked": [
+        "Opens on a concrete moment, not a thesis statement",
+        "Connects two identities (athlete, aspiring scientist) through a real question rather than asserting they are connected",
+        "Shows initiative the reader can picture (reading, spreadsheet, regression)"
+      ]
+    },
+    {
+      "id": "stanford_roommate_note",
+      "college": "stanford",
+      "prompt": "Write a note to your future roommate that reveals something about you or that will help your roommate - and us - know you better.",
+      "themes": ["voice", "everyday detail", "warmth"],
+      "excerpt": "Fair warning: I label the leftovers. Not to be controlling - my little brother once ate an entire dish I was saving for my mom's night shift, and I decided a Sharpie was cheaper than that feeling. I will also always split the last of anything with you.",
+      "why_it_worked": [
+        "Small, specific habit stands in for a larger value (care for family)",
+        "Light tone keeps it from feeling heavy",
+        "Reveals character through action, not adjectives"
+      ]
+    },
+    {
+      "id": "berkeley_leadership_first_gen",
+      "college": "berkeley",
+      "prompt": "Describe an example of your leadership experience in which you have positively influenced others, helped resolve disputes, or contributed to group efforts over time.",
+      "themes": ["leadership", "first-gen", "community", "quiet leadership"],
+      "excerpt": "I never called the FAFSA nights a workshop. Parents would not have come to a workshop. I called it dinner, made too much rice on purpose, and set up two laptops at the end of the table. Over a year, eleven families in my apartment complex filed on time. My own application was the last one I helped with.",
+      "why_it_worked": [
+        "Reframes leadership as service, which fits Berkeley's prompt and the student's reality",
+        "Numbers are modest and believable",
+        "Last line lands the theme without explaining it"
+      ]
+    },
+    {
+      "id": "common_app_challenge_transcript",
+      "college": "common_app",
+      "prompt": "The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure.",
+      "themes": ["setback", "growth", "academic recovery", "honesty"],
+      "excerpt": "Sophomore fall I got a C+ in Chemistry and told my parents the class was just hard. It was not just hard. I had stopped asking questions the moment I felt behind, because asking felt like admitting something. The fix was embarrassingly small: I started sitting in the front row and staying for the first ten minutes of lunch.",
+      "why_it_worked": [
+        "Names the real failure (avoidance) instead of a safe one",
+        "Resolution is specific and proportionate, not a dramatic turnaround",
+        "Reflection shows self-awareness a reader can trust"
+      ]
+    },
+    {
+      "id": "common_app_identity_language",
+      "college": "common_app",
+      "prompt": "Some students have a background, identity, interest, or talent so meaningful they believe their application would be incomplete without it.",
+      "themes": ["identity", "family", "language", "immigrant"],
+      "excerpt": "I am the family's phone voice. When the insurance company calls, my mother hands me the phone mid-sentence and I switch registers - from the kid who leaves dishes in the sink to someone who says 'I'd like to confirm the claim number.' I used to resent it. Now I notice I am good at translating not just words but tone.",
+      "why_it_worked": [
+        "Specific recurring role rather than a one-time event",
+        "Tracks a genuine change in feeling (resentment to recognition)",
+        "Ends on a transferable strength stated plainly"
+      ]
+    },
+    {
+      "id": "uw_area_of_study_cs_access",
+      "college": "uw",
+      "prompt": "Tell us about your academic interests and how you plan to pursue them at the University of Washington.",
+      "themes": ["major fit", "computer science", "purpose", "access"],
+      "excerpt": "The bus app in my city does not show real-time arrivals for the three routes that run through my neighborhood - the routes people actually depend on. I want to study computer science at UW partly because the Paul G. Allen School sits ten minutes from those exact stops, and because the transit data is public and nobody has bothered.",
+      "why_it_worked": [
+        "Ties the major to a concrete, local problem the student already noticed",
+        "Names a specific program and a specific reason it fits",
+        "Purpose feels earned, not performed"
+      ]
+    }
+  ]
+}

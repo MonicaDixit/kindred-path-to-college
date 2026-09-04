@@ -1,0 +1,24 @@
+# secrets — never commit
+.env
+.env.local
+
+# personal reference docs — not for the public repo
+local-only/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node / vite
+web/node_modules/
+web/dist/
+
+# misc
+.DS_Store
+scratchpad/
+scratchpad_*.log
+.claude/settings.local.json
+
+# guardrail audit trail (operational log)
+guardrail_audit.jsonl
