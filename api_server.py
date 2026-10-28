@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -231,11 +231,22 @@ def list_agents() -> List[Dict[str, Any]]:
 
 # ---------------------------------------------------------------------------
 # Guardrail observability (Checkpoint 6) - a human reviewer / operator view.
-# In a real deployment this sits behind auth.
+# Gated behind ADMIN_TOKEN: these endpoints expose session IDs tied to risk
+# categories (escalations) and aggregate guardrail stats (metrics), neither of
+# which should be reachable by an unauthenticated caller.
 # ---------------------------------------------------------------------------
 
+ADMIN_TOKEN = os.getenv("ADMIN_TOKEN", "")
+
+
+def _require_admin(x_admin_token: Optional[str] = Header(default=None)) -> None:
+    if not ADMIN_TOKEN or x_admin_token != ADMIN_TOKEN:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+
 @app.get("/api/escalations")
-def escalations(limit: int = 200) -> Dict[str, Any]:
+def escalations(limit: int = 200, x_admin_token: Optional[str] = Header(default=None)) -> Dict[str, Any]:
+    _require_admin(x_admin_token)
     import audit_log
     rows = [r for r in audit_log.read_all() if r.get("event") == "escalation"]
     rows.reverse()
@@ -243,7 +254,8 @@ def escalations(limit: int = 200) -> Dict[str, Any]:
 
 
 @app.get("/api/metrics")
-def metrics() -> Dict[str, Any]:
+def metrics(x_admin_token: Optional[str] = Header(default=None)) -> Dict[str, Any]:
+    _require_admin(x_admin_token)
     import metrics as _m
     return _m.compute()
 
