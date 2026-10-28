@@ -98,7 +98,7 @@ export default function App() {
             <strong style={{ color: '#fff', fontFamily: 'Sora' }}>Kindred · Path2College</strong>
             <p style={{ marginTop: 8 }}>
               A free guide to college for first-generation and low-income students.
-              Built as a capstone project. Not affiliated with any college or the U.S. Department of Education.
+              Built as a passion project. Not affiliated with any college or the U.S. Department of Education.
             </p>
           </div>
           <div style={{ display: 'flex', gap: 40 }}>
